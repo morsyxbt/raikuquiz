@@ -230,7 +230,7 @@ submitBtn.onclick = () => {
 shareBtn.onclick = () => {
     const score = finalScore.textContent;
     const total = totalScore.textContent;
-    const tweetText = encodeURIComponent(`I scored ${score}/${total} on the Raikucom Quiz! Test your knowledge: https://raiku.vercel.app/`);
+    const tweetText = encodeURIComponent(`I scored ${score}/${total} on the Raikucom Quiz! Test your knowledge: https://raikuquiz.vercel.app/`);
     const url = `https://twitter.com/intent/tweet?text=${tweetText}`;
     window.open(url, '_blank');
 };
